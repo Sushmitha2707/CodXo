@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Result</title>
+    <script>
+        // Show alert if the transaction is fraudulent
+        window.onload = function() {
+            if ("{{ result }}" === "Fraudulent") {
+                alert("Warning: This transaction is fraudulent!");
+            }
+        };
+    </script>
+</head>
+<body>
+    <h1>Transaction Result</h1>
+    <p>The transaction is: <strong>{{ result }}</strong></p>
+    <a href="/">Back to Form</a>
+</body>
+</html>
+
