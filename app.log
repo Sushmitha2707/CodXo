@@ -38,8 +38,8 @@ def predict():
         # Connect to the database (ensure your credentials are correct)
         db = mysql.connector.connect(
             host="localhost",
-            user="Sushmitha H Kumar",
-            password="Sushmitha@27",
+            user="user name",(actuall user name)
+            password="password",(actual password)
             database="fraud_detection_db"
         )
         cursor = db.cursor()
